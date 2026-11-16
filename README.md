@@ -172,7 +172,7 @@ JobLens is architected with memory-conscious patterns for local deployment: chun
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/joblens/joblens.git
+git clone https://github.com/mangalrohan05/JobLens.git
 cd JobLens
 
 # Create and activate virtual environment
