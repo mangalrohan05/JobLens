@@ -140,20 +140,39 @@ Provides analytical aggregations:
 | **BM25F (Low $b_{\text{desc}}=0.50$)** | **0.7667** | 0.7233 | 0.5088 | 0.6966 | 97.21 ms |
 | **BM25F (High $b_{\text{desc}}=0.90$)** | 0.7600 | 0.7300 | 0.5261 | 0.6991 | 100.46 ms |
 
-*Ablation Finding:* Multi-field BM25F ranking ($0.5237$ MAP@20) improves over single-field description-only BM25 ($0.4566$ MAP@20) by giving explicit prominence to structured job title and extracted skill fields.
+*Ablation Finding:* multi-field BM25F scored 0.52 vs 0.46 MAP@20 for description-only BM25 on rule-based labels that favour title and skill signals; results are indicative.
+
+---
+
+## Application Interface
+
+### 1. Relevance-Ranked Search (BM25F vs Baseline)
+![JobLens Search Interface](docs/images/screenshot_search.png)
+
+### 2. Candidate Recommendations & Skill-Gap Analysis
+![Personalized Recommendations](docs/images/screenshot_recommendations.png)
+
+### 3. Job Market Intelligence & Salary Insights
+![Market Analytics](docs/images/screenshot_market_insights.png)
+
+---
+
+## Scalability
+
+JobLens is architected with memory-conscious patterns for local deployment: chunked streaming ingestion (`iter_raw_chunks`), columnar partitioned Parquet storage by country ISO code, and memoized inverted index construction completing in 39 seconds using 1.6 GB peak RAM for 32,563 documents. Scaling beyond single-node laptop execution to 1,000,000+ job postings would require replacing the in-memory dictionary inverted index with disk-based or memory-mapped postings files (e.g., LSM-tree or SSTable layouts with block compression) to bound RAM consumption, and replacing Pandas/PyArrow single-machine pipelines with Apache PySpark for distributed partition transforms and phrase extraction. These architectural expansions are designated strictly as future work.
 
 ---
 
 ## Setup and Reproduction
 
 ### Prerequisites
-- Python 3.11+
+- Python 3.11 (pinned in `runtime.txt`)
 - Virtual environment (recommended)
 
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/JobLens.git
+git clone https://github.com/joblens/joblens.git
 cd JobLens
 
 # Create and activate virtual environment

@@ -126,7 +126,13 @@ def load_search_engine() -> Tuple[InvertedIndex, BM25FRanker, KeywordBaselineRan
     for _, row in df.iterrows():
         doc_id = str(row["job_id"])
         title = str(row["title"])
-        skills = row["skills"] if isinstance(row["skills"], list) else []
+        raw_skills = row.get("skills")
+        if isinstance(raw_skills, (list, tuple, set)) or hasattr(raw_skills, "__iter__") and not isinstance(raw_skills, str):
+            skills = [str(s).strip() for s in raw_skills if str(s).strip()]
+        elif isinstance(raw_skills, str):
+            skills = [s.strip() for s in raw_skills.split(",") if s.strip()]
+        else:
+            skills = []
         desc = str(row["description"])
 
         meta = {
