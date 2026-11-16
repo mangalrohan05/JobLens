@@ -36,10 +36,19 @@ class JobLensDatabase:
                     preferred_roles TEXT NOT NULL,
                     preferred_locations TEXT NOT NULL,
                     preferred_work_modes TEXT NOT NULL,
+                    preferred_cities TEXT DEFAULT '[]',
+                    preferred_states TEXT DEFAULT '[]',
                     min_salary REAL,
                     updated_at TEXT NOT NULL
                 )
             """)
+            # Ensure columns exist if table was previously created with earlier schema
+            cursor.execute("PRAGMA table_info(candidate_profiles)")
+            columns = [col["name"] for col in cursor.fetchall()]
+            if "preferred_cities" not in columns:
+                cursor.execute("ALTER TABLE candidate_profiles ADD COLUMN preferred_cities TEXT DEFAULT '[]'")
+            if "preferred_states" not in columns:
+                cursor.execute("ALTER TABLE candidate_profiles ADD COLUMN preferred_states TEXT DEFAULT '[]'")
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS saved_jobs (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -75,6 +84,8 @@ class JobLensDatabase:
         preferred_locations: List[str],
         preferred_work_modes: List[str],
         min_salary: Optional[float] = None,
+        preferred_cities: Optional[List[str]] = None,
+        preferred_states: Optional[List[str]] = None,
     ) -> None:
         """Insert or replace candidate profile."""
         now_iso = datetime.now(timezone.utc).isoformat()
@@ -83,8 +94,9 @@ class JobLensDatabase:
             cursor.execute("""
                 INSERT OR REPLACE INTO candidate_profiles (
                     user_id, skills, years_experience, preferred_roles,
-                    preferred_locations, preferred_work_modes, min_salary, updated_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                    preferred_locations, preferred_work_modes, preferred_cities,
+                    preferred_states, min_salary, updated_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 user_id,
                 json.dumps(skills),
@@ -92,6 +104,8 @@ class JobLensDatabase:
                 json.dumps(preferred_roles),
                 json.dumps(preferred_locations),
                 json.dumps(preferred_work_modes),
+                json.dumps(preferred_cities or []),
+                json.dumps(preferred_states or []),
                 float(min_salary) if min_salary is not None else None,
                 now_iso,
             ))
@@ -105,6 +119,7 @@ class JobLensDatabase:
             row = cursor.fetchone()
             if not row:
                 return None
+            keys = row.keys()
             return {
                 "user_id": row["user_id"],
                 "skills": json.loads(row["skills"]),
@@ -112,6 +127,8 @@ class JobLensDatabase:
                 "preferred_roles": json.loads(row["preferred_roles"]),
                 "preferred_locations": json.loads(row["preferred_locations"]),
                 "preferred_work_modes": json.loads(row["preferred_work_modes"]),
+                "preferred_cities": json.loads(row["preferred_cities"]) if "preferred_cities" in keys and row["preferred_cities"] else [],
+                "preferred_states": json.loads(row["preferred_states"]) if "preferred_states" in keys and row["preferred_states"] else [],
                 "min_salary": row["min_salary"],
                 "updated_at": row["updated_at"],
             }

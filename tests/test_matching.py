@@ -255,12 +255,16 @@ def test_sqlite_persistence(tmp_path):
         preferred_locations=["Remote", "US"],
         preferred_work_modes=["Remote"],
         min_salary=120000,
+        preferred_cities=["San Francisco", "Austin"],
+        preferred_states=["CA", "TX"],
     )
     prof = db.get_profile("user_42")
     assert prof is not None
     assert prof["user_id"] == "user_42"
     assert "docker" in prof["skills"]
     assert prof["years_experience"] == 3.5
+    assert prof["preferred_cities"] == ["San Francisco", "Austin"]
+    assert prof["preferred_states"] == ["CA", "TX"]
 
     # 2. Save & retrieve job
     saved = db.save_job(
