@@ -1,0 +1,408 @@
+[
+  {
+    "query_id": "q01",
+    "query": "machine learning engineer python pytorch",
+    "role_family": "Data & AI",
+    "target_title_regex": "(?i)\\b(machine learning|ml engineer|deep learning|ai engineer)\\b",
+    "partial_title_regex": "(?i)\\b(data scientist|algorithm engineer|nlp|computer vision)\\b",
+    "core_skills": [
+      "python",
+      "pytorch",
+      "machine learning",
+      "tensorflow"
+    ]
+  },
+  {
+    "query_id": "q02",
+    "query": "senior data scientist sql machine learning",
+    "role_family": "Data & AI",
+    "target_title_regex": "(?i)\\b(data scientist|senior data scientist|lead data scientist)\\b",
+    "partial_title_regex": "(?i)\\b(machine learning|data analyst|bi analyst|statistician)\\b",
+    "core_skills": [
+      "python",
+      "sql",
+      "machine learning",
+      "statistics"
+    ]
+  },
+  {
+    "query_id": "q03",
+    "query": "data engineer spark sql etl pipeline",
+    "role_family": "Data & AI",
+    "target_title_regex": "(?i)\\b(data engineer|big data engineer|etl developer)\\b",
+    "partial_title_regex": "(?i)\\b(database engineer|bi developer|data architect|analytics engineer)\\b",
+    "core_skills": [
+      "spark",
+      "sql",
+      "python",
+      "etl",
+      "airflow"
+    ]
+  },
+  {
+    "query_id": "q04",
+    "query": "cloud devops engineer terraform kubernetes aws",
+    "role_family": "Cloud & DevOps",
+    "target_title_regex": "(?i)\\b(devops engineer|cloud engineer|platform engineer|infrastructure engineer)\\b",
+    "partial_title_regex": "(?i)\\b(systems engineer|sre|cloud architect|release engineer)\\b",
+    "core_skills": [
+      "terraform",
+      "kubernetes",
+      "aws",
+      "docker",
+      "ci/cd"
+    ]
+  },
+  {
+    "query_id": "q05",
+    "query": "site reliability engineer sre kubernetes linux",
+    "role_family": "Cloud & DevOps",
+    "target_title_regex": "(?i)\\b(site reliability engineer|sre|production engineer)\\b",
+    "partial_title_regex": "(?i)\\b(devops|systems administrator|linux engineer|infrastructure)\\b",
+    "core_skills": [
+      "kubernetes",
+      "linux",
+      "docker",
+      "python",
+      "ansible"
+    ]
+  },
+  {
+    "query_id": "q06",
+    "query": "cybersecurity analyst incident response soc",
+    "role_family": "Cybersecurity",
+    "target_title_regex": "(?i)\\b(cybersecurity analyst|security analyst|soc analyst|infosec analyst)\\b",
+    "partial_title_regex": "(?i)\\b(security engineer|incident response|information security|threat analyst)\\b",
+    "core_skills": [
+      "cybersecurity",
+      "incident response",
+      "siem",
+      "firewall",
+      "network security"
+    ]
+  },
+  {
+    "query_id": "q07",
+    "query": "penetration tester ethical hacker security",
+    "role_family": "Cybersecurity",
+    "target_title_regex": "(?i)\\b(penetration tester|ethical hacker|pentester|security consultant)\\b",
+    "partial_title_regex": "(?i)\\b(vulnerability analyst|appsec|red team|security engineer)\\b",
+    "core_skills": [
+      "penetration testing",
+      "vulnerability assessment",
+      "wireshark",
+      "metasploit"
+    ]
+  },
+  {
+    "query_id": "q08",
+    "query": "full stack software developer react python",
+    "role_family": "Software Engineering",
+    "target_title_regex": "(?i)\\b(full stack developer|full stack engineer|software developer|software engineer)\\b",
+    "partial_title_regex": "(?i)\\b(web developer|frontend engineer|backend engineer|application developer)\\b",
+    "core_skills": [
+      "python",
+      "react",
+      "javascript",
+      "typescript",
+      "html"
+    ]
+  },
+  {
+    "query_id": "q09",
+    "query": "frontend developer react typescript css",
+    "role_family": "Software Engineering",
+    "target_title_regex": "(?i)\\b(frontend developer|frontend engineer|ui developer|web developer)\\b",
+    "partial_title_regex": "(?i)\\b(software engineer|full stack|javascript developer)\\b",
+    "core_skills": [
+      "react",
+      "typescript",
+      "css",
+      "html",
+      "javascript"
+    ]
+  },
+  {
+    "query_id": "q10",
+    "query": "backend developer java spring boot microservices",
+    "role_family": "Software Engineering",
+    "target_title_regex": "(?i)\\b(backend developer|backend engineer|java developer|java engineer)\\b",
+    "partial_title_regex": "(?i)\\b(software engineer|systems developer|api developer)\\b",
+    "core_skills": [
+      "java",
+      "spring boot",
+      "microservices",
+      "sql",
+      "rest api"
+    ]
+  },
+  {
+    "query_id": "q11",
+    "query": "ios mobile engineer swift swiftui",
+    "role_family": "Software Engineering",
+    "target_title_regex": "(?i)\\b(ios developer|ios engineer|mobile developer|mobile engineer)\\b",
+    "partial_title_regex": "(?i)\\b(software developer|application engineer|apple developer)\\b",
+    "core_skills": [
+      "swift",
+      "ios",
+      "objective-c",
+      "xcode"
+    ]
+  },
+  {
+    "query_id": "q12",
+    "query": "qa automation engineer selenium cypress",
+    "role_family": "Software Engineering",
+    "target_title_regex": "(?i)\\b(qa automation|quality assurance engineer|sdet|test automation engineer)\\b",
+    "partial_title_regex": "(?i)\\b(qa engineer|test engineer|software tester|software engineer in test)\\b",
+    "core_skills": [
+      "selenium",
+      "cypress",
+      "python",
+      "automation",
+      "jira"
+    ]
+  },
+  {
+    "query_id": "q13",
+    "query": "technical product manager agile roadmap",
+    "role_family": "Product & Management",
+    "target_title_regex": "(?i)\\b(technical product manager|product manager|group product manager)\\b",
+    "partial_title_regex": "(?i)\\b(product owner|project manager|program manager)\\b",
+    "core_skills": [
+      "product management",
+      "agile",
+      "scrum",
+      "roadmap",
+      "jira"
+    ]
+  },
+  {
+    "query_id": "q14",
+    "query": "scrum master agile sprint planning",
+    "role_family": "Product & Management",
+    "target_title_regex": "(?i)\\b(scrum master|agile coach|agile project manager)\\b",
+    "partial_title_regex": "(?i)\\b(project manager|product owner|delivery manager)\\b",
+    "core_skills": [
+      "agile",
+      "scrum",
+      "kanban",
+      "jira",
+      "sprint planning"
+    ]
+  },
+  {
+    "query_id": "q15",
+    "query": "ui ux designer figma user research wireframing",
+    "role_family": "Product & Management",
+    "target_title_regex": "(?i)\\b(ui ux designer|ux designer|product designer|user experience designer)\\b",
+    "partial_title_regex": "(?i)\\b(graphic designer|visual designer|web designer|interaction designer)\\b",
+    "core_skills": [
+      "figma",
+      "wireframing",
+      "prototyping",
+      "user research",
+      "ui design"
+    ]
+  },
+  {
+    "query_id": "q16",
+    "query": "registered nurse icu healthcare patient care",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(registered nurse|rn|icu nurse|staff nurse|clinical nurse)\\b",
+    "partial_title_regex": "(?i)\\b(nurse|nurse supervisor|nurse practitioner|care coordinator)\\b",
+    "core_skills": [
+      "critical care",
+      "nursing",
+      "patient care",
+      "healthcare"
+    ]
+  },
+  {
+    "query_id": "q17",
+    "query": "nurse practitioner primary care clinical",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(nurse practitioner|fnp|aprn|family nurse practitioner)\\b",
+    "partial_title_regex": "(?i)\\b(registered nurse|physician assistant|clinical director)\\b",
+    "core_skills": [
+      "nursing",
+      "clinical care",
+      "primary care",
+      "patient care"
+    ]
+  },
+  {
+    "query_id": "q18",
+    "query": "account executive b2b enterprise sales quota",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(account executive|enterprise account executive|sales executive)\\b",
+    "partial_title_regex": "(?i)\\b(sales representative|business development|sales director)\\b",
+    "core_skills": [
+      "b2b sales",
+      "crm",
+      "salesforce",
+      "cold calling",
+      "negotiation"
+    ]
+  },
+  {
+    "query_id": "q19",
+    "query": "business development manager sales pipeline leads",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(business development manager|bdm|director of business development)\\b",
+    "partial_title_regex": "(?i)\\b(sales manager|account executive|partnership manager)\\b",
+    "core_skills": [
+      "business development",
+      "lead generation",
+      "sales pipeline",
+      "crm"
+    ]
+  },
+  {
+    "query_id": "q20",
+    "query": "digital marketing manager seo sem campaigns content",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(digital marketing manager|marketing manager|growth marketer)\\b",
+    "partial_title_regex": "(?i)\\b(marketing specialist|content marketer|seo specialist|social media manager)\\b",
+    "core_skills": [
+      "seo",
+      "sem",
+      "google analytics",
+      "digital marketing",
+      "content strategy"
+    ]
+  },
+  {
+    "query_id": "q21",
+    "query": "financial analyst financial modeling excel forecasting",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(financial analyst|senior financial analyst|finance manager)\\b",
+    "partial_title_regex": "(?i)\\b(accountant|pricing analyst|investment analyst|budget analyst)\\b",
+    "core_skills": [
+      "financial modeling",
+      "excel",
+      "forecasting",
+      "variance analysis",
+      "finance"
+    ]
+  },
+  {
+    "query_id": "q22",
+    "query": "senior accountant audit general ledger reconciliation",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(senior accountant|staff accountant|accounting manager|cpa)\\b",
+    "partial_title_regex": "(?i)\\b(auditor|bookkeeper|financial accountant|tax accountant)\\b",
+    "core_skills": [
+      "general ledger",
+      "reconciliation",
+      "gaap",
+      "audit",
+      "excel"
+    ]
+  },
+  {
+    "query_id": "q23",
+    "query": "human resources manager employee relations talent",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(human resources manager|hr manager|hr director|people partner)\\b",
+    "partial_title_regex": "(?i)\\b(hr generalist|hr specialist|talent manager|recruiter)\\b",
+    "core_skills": [
+      "employee relations",
+      "talent management",
+      "hr compliance",
+      "onboarding"
+    ]
+  },
+  {
+    "query_id": "q24",
+    "query": "talent acquisition specialist technical recruiter sourcing",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(talent acquisition|recruiter|technical recruiter|sourcing specialist)\\b",
+    "partial_title_regex": "(?i)\\b(hr coordinator|staffing specialist|recruiting coordinator)\\b",
+    "core_skills": [
+      "sourcing",
+      "interviewing",
+      "talent acquisition",
+      "recruiting",
+      "ats"
+    ]
+  },
+  {
+    "query_id": "q25",
+    "query": "customer success manager retention onboarding churn",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(customer success manager|csm|client success manager)\\b",
+    "partial_title_regex": "(?i)\\b(account manager|client relations|customer support lead)\\b",
+    "core_skills": [
+      "customer retention",
+      "onboarding",
+      "churn reduction",
+      "client management"
+    ]
+  },
+  {
+    "query_id": "q26",
+    "query": "supply chain logistics manager inventory warehouse",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(supply chain manager|logistics manager|warehouse manager)\\b",
+    "partial_title_regex": "(?i)\\b(operations manager|procurement manager|inventory analyst)\\b",
+    "core_skills": [
+      "supply chain",
+      "logistics",
+      "inventory management",
+      "procurement"
+    ]
+  },
+  {
+    "query_id": "q27",
+    "query": "paralegal legal assistant litigation contract review",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(paralegal|legal assistant|legal specialist|contracts manager)\\b",
+    "partial_title_regex": "(?i)\\b(legal coordinator|compliance specialist|law clerk)\\b",
+    "core_skills": [
+      "litigation",
+      "legal research",
+      "contract drafting",
+      "compliance"
+    ]
+  },
+  {
+    "query_id": "q28",
+    "query": "executive administrative assistant calendar travel office",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(executive assistant|administrative assistant|executive secretary)\\b",
+    "partial_title_regex": "(?i)\\b(office manager|admin coordinator|personal assistant)\\b",
+    "core_skills": [
+      "calendar management",
+      "travel arrangements",
+      "office administration",
+      "expense reports"
+    ]
+  },
+  {
+    "query_id": "q29",
+    "query": "elementary school teacher curriculum classroom",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(teacher|elementary teacher|educator|instructor)\\b",
+    "partial_title_regex": "(?i)\\b(substitute teacher|tutor|curriculum coordinator|teaching assistant)\\b",
+    "core_skills": [
+      "classroom management",
+      "curriculum development",
+      "lesson planning",
+      "teaching"
+    ]
+  },
+  {
+    "query_id": "q30",
+    "query": "store manager retail operations merchandising sales",
+    "role_family": "Operations & Other",
+    "target_title_regex": "(?i)\\b(store manager|retail store manager|assistant store manager)\\b",
+    "partial_title_regex": "(?i)\\b(retail supervisor|department manager|merchandising manager)\\b",
+    "core_skills": [
+      "retail operations",
+      "merchandising",
+      "store management",
+      "inventory control"
+    ]
+  }
+]

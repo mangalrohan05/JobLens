@@ -1,0 +1,10 @@
+Model / Configuration,P@5,P@10,MAP@20,NDCG@10,Avg Query Latency (ms)
+Keyword Baseline (Term Count),0.3267,0.37,0.1737,0.3334,31.58
+BM25 (Ablation: Description Only),0.7267,0.6567,0.4566,0.623,100.44
+"BM25F (Default: k1=1.2, b_desc=0.75, balanced)",0.7533,0.7167,0.5237,0.6958,97.74
+"BM25F (Title-Heavy: w_title=4.0, w_skills=2.0)",0.76,0.72,0.5341,0.7026,98.97
+"BM25F (Skills-Heavy: w_title=2.0, w_skills=3.0)",0.74,0.72,0.5131,0.693,97.1
+"BM25F (Low k1=0.8, b_desc=0.75)",0.74,0.7133,0.5143,0.6916,103.53
+"BM25F (High k1=1.6, b_desc=0.75)",0.7667,0.7433,0.537,0.71,97.58
+"BM25F (Low b_desc=0.50, k1=1.2)",0.7667,0.7233,0.5088,0.6966,97.21
+"BM25F (High b_desc=0.90, k1=1.2)",0.76,0.73,0.5261,0.6991,100.46

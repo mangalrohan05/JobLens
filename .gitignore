@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / ambient files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Raw data (do not commit raw scraped postings)
+data/raw/
+*.csv
+!data/evaluation/*.csv
+
+# Processed partitions (only commit sample if needed)
+data/processed/
+
+# Persisted Inverted Index (built at app startup and cached with st.cache_resource)
+data/index/
+data/sample_index/
+*.json
+!data/evaluation/*.json
+!data/evaluation/queries.json
+
+# Local SQLite databases
+data/*.db
+*.sqlite3
+
+# System / IDE
+.vscode/
+.idea/
+.DS_Store
+*.log

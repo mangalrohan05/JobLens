@@ -1,0 +1,1214 @@
+programming_languages:
+- canonical: python
+  aliases:
+  - py
+  - python3
+  - python2
+  - cpython
+- canonical: javascript
+  aliases:
+  - js
+  - ecmascript
+  - es6
+  - es2015
+  - es2020
+  - vanilla js
+- canonical: typescript
+  aliases:
+  - ts
+- canonical: java
+  aliases:
+  - java 8
+  - java 11
+  - java 17
+  - java 21
+  - core java
+- canonical: c++
+  aliases:
+  - cpp
+  - c plus plus
+- canonical: c#
+  aliases:
+  - csharp
+  - c sharp
+  - .net c#
+- canonical: c
+  aliases:
+  - c language
+  - ansi c
+- canonical: go
+  aliases:
+  - golang
+- canonical: rust
+  aliases:
+  - rustlang
+- canonical: ruby
+  aliases: []
+- canonical: php
+  aliases:
+  - php7
+  - php8
+- canonical: swift
+  aliases: []
+- canonical: kotlin
+  aliases: []
+- canonical: scala
+  aliases: []
+- canonical: r
+  aliases:
+  - r language
+  - r programming
+  - rstats
+- canonical: julia
+  aliases: []
+- canonical: perl
+  aliases: []
+- canonical: dart
+  aliases: []
+- canonical: shell
+  aliases:
+  - sh
+  - shell scripting
+- canonical: bash
+  aliases:
+  - bash scripting
+- canonical: powershell
+  aliases:
+  - posh
+  - pwsh
+- canonical: sql
+  aliases:
+  - structured query language
+  - ansi sql
+- canonical: html
+  aliases:
+  - html5
+- canonical: css
+  aliases:
+  - css3
+- canonical: sass
+  aliases:
+  - scss
+- canonical: lua
+  aliases: []
+- canonical: haskell
+  aliases: []
+- canonical: elixir
+  aliases: []
+- canonical: erlang
+  aliases: []
+- canonical: clojure
+  aliases: []
+- canonical: f#
+  aliases:
+  - fsharp
+  - f sharp
+- canonical: visual basic
+  aliases:
+  - vb
+  - vb.net
+- canonical: assembly
+  aliases:
+  - asm
+  - x86
+  - arm assembly
+- canonical: cobol
+  aliases: []
+- canonical: fortran
+  aliases: []
+web_frontend:
+- canonical: react
+  aliases:
+  - reactjs
+  - react.js
+- canonical: angular
+  aliases:
+  - angularjs
+  - angular 2+
+- canonical: vue.js
+  aliases:
+  - vue
+  - vuejs
+  - vue 3
+  - vue2
+- canonical: svelte
+  aliases:
+  - sveltekit
+- canonical: next.js
+  aliases:
+  - nextjs
+  - next
+- canonical: nuxt.js
+  aliases:
+  - nuxtjs
+  - nuxt
+- canonical: tailwind css
+  aliases:
+  - tailwind
+  - tailwindcss
+- canonical: bootstrap
+  aliases:
+  - bootstrap 5
+  - bootstrap 4
+- canonical: material-ui
+  aliases:
+  - mui
+  - material ui
+  - material design
+- canonical: redux
+  aliases:
+  - redux-toolkit
+  - redux toolkit
+  - rtk
+- canonical: mobx
+  aliases: []
+- canonical: graphql
+  aliases:
+  - gql
+- canonical: apollo
+  aliases:
+  - apollo client
+  - apollo graphql
+- canonical: webgl
+  aliases:
+  - three.js
+  - threejs
+- canonical: webpack
+  aliases: []
+- canonical: vite
+  aliases: []
+- canonical: rollup
+  aliases: []
+- canonical: babel
+  aliases: []
+- canonical: jquery
+  aliases: []
+- canonical: webassembly
+  aliases:
+  - wasm
+- canonical: responsive design
+  aliases:
+  - mobile-first design
+  - responsive web design
+- canonical: html5 canvas
+  aliases:
+  - canvas api
+- canonical: websocket
+  aliases:
+  - websockets
+  - socket.io
+- canonical: pwa
+  aliases:
+  - progressive web apps
+  - progressive web app
+- canonical: storybook
+  aliases: []
+- canonical: jest
+  aliases:
+  - jest testing
+- canonical: cypress
+  aliases:
+  - cypress.io
+- canonical: playwright
+  aliases: []
+- canonical: testing library
+  aliases:
+  - react testing library
+- canonical: chakra ui
+  aliases:
+  - chakra
+- canonical: styled-components
+  aliases:
+  - styled components
+- canonical: semantic ui
+  aliases: []
+- canonical: electron
+  aliases:
+  - electronjs
+- canonical: d3.js
+  aliases:
+  - d3
+  - d3js
+- canonical: chart.js
+  aliases:
+  - chartjs
+backend_frameworks:
+- canonical: node.js
+  aliases:
+  - nodejs
+  - node
+- canonical: express.js
+  aliases:
+  - express
+  - expressjs
+- canonical: django
+  aliases:
+  - django rest framework
+  - drf
+- canonical: flask
+  aliases: []
+- canonical: fastapi
+  aliases: []
+- canonical: spring boot
+  aliases:
+  - spring
+  - spring framework
+  - spring mvc
+- canonical: asp.net
+  aliases:
+  - asp.net core
+  - .net core
+  - dotnet core
+  - .net
+- canonical: ruby on rails
+  aliases:
+  - rails
+  - ror
+- canonical: laravel
+  aliases: []
+- canonical: symfony
+  aliases: []
+- canonical: nest.js
+  aliases:
+  - nestjs
+  - nest
+- canonical: gin
+  aliases:
+  - gin-gonic
+- canonical: echo
+  aliases:
+  - echo framework
+- canonical: actix
+  aliases:
+  - actix-web
+- canonical: koa
+  aliases:
+  - koajs
+- canonical: phoenix
+  aliases:
+  - elixir phoenix
+- canonical: grpc
+  aliases:
+  - protocol buffers
+  - protobuf
+- canonical: celery
+  aliases: []
+- canonical: rabbitmq
+  aliases: []
+- canonical: activemq
+  aliases: []
+- canonical: rest api
+  aliases:
+  - restful api
+  - rest apis
+  - restful web services
+  - rest
+- canonical: microservices
+  aliases:
+  - microservice architecture
+  - micro-services
+- canonical: service mesh
+  aliases:
+  - istio
+  - linkerd
+- canonical: event-driven architecture
+  aliases:
+  - eda
+  - event sourcing
+  - cqrs
+- canonical: gunicorn
+  aliases: []
+- canonical: uwsgi
+  aliases: []
+- canonical: nginx
+  aliases: []
+- canonical: envoy
+  aliases:
+  - envoy proxy
+- canonical: traefik
+  aliases: []
+- canonical: api gateway
+  aliases:
+  - kong
+  - apigee
+  - aws api gateway
+- canonical: soap
+  aliases:
+  - soap api
+- canonical: json-rpc
+  aliases:
+  - rpc
+- canonical: vert.x
+  aliases:
+  - vertx
+- canonical: dropwizard
+  aliases: []
+- canonical: quarkus
+  aliases: []
+databases_storage:
+- canonical: postgresql
+  aliases:
+  - postgres
+  - psql
+- canonical: mysql
+  aliases: []
+- canonical: sqlite
+  aliases:
+  - sqlite3
+- canonical: mariadb
+  aliases: []
+- canonical: oracle database
+  aliases:
+  - oracle db
+  - pl/sql
+  - oracle sql
+- canonical: microsoft sql server
+  aliases:
+  - ms sql
+  - mssql
+  - t-sql
+  - sql server
+- canonical: mongodb
+  aliases:
+  - mongo
+- canonical: redis
+  aliases: []
+- canonical: memcached
+  aliases: []
+- canonical: cassandra
+  aliases:
+  - apache cassandra
+- canonical: couchdb
+  aliases: []
+- canonical: dynamodb
+  aliases:
+  - amazon dynamodb
+- canonical: neo4j
+  aliases:
+  - graph database
+- canonical: elasticsearch
+  aliases:
+  - elastic search
+- canonical: opensearch
+  aliases: []
+- canonical: snowflake
+  aliases: []
+- canonical: google bigquery
+  aliases:
+  - bigquery
+- canonical: amazon redshift
+  aliases:
+  - redshift
+- canonical: clickhouse
+  aliases: []
+- canonical: timescaledb
+  aliases:
+  - timescale
+- canonical: cockroachdb
+  aliases:
+  - cockroach
+- canonical: scylladb
+  aliases: []
+- canonical: faunadb
+  aliases: []
+- canonical: supabase
+  aliases: []
+- canonical: firebase
+  aliases:
+  - firestore
+  - firebase realtime database
+- canonical: pinecone
+  aliases:
+  - vector database
+  - vector db
+- canonical: weaviate
+  aliases: []
+- canonical: chromadb
+  aliases:
+  - chroma
+- canonical: milvus
+  aliases: []
+- canonical: qdrant
+  aliases: []
+cloud_infrastructure:
+- canonical: aws
+  aliases:
+  - amazon web services
+  - amazon cloud
+- canonical: azure
+  aliases:
+  - microsoft azure
+- canonical: google cloud platform
+  aliases:
+  - gcp
+  - google cloud
+- canonical: docker
+  aliases:
+  - docker container
+  - containerization
+- canonical: kubernetes
+  aliases:
+  - k8s
+- canonical: terraform
+  aliases:
+  - iac
+  - infrastructure as code
+- canonical: ansible
+  aliases: []
+- canonical: puppet
+  aliases: []
+- canonical: chef
+  aliases: []
+- canonical: pulumi
+  aliases: []
+- canonical: cloudformation
+  aliases:
+  - aws cloudformation
+- canonical: openstack
+  aliases: []
+- canonical: vagrant
+  aliases: []
+- canonical: linux
+  aliases:
+  - gnu/linux
+  - ubuntu
+  - centos
+  - redhat
+  - debian
+  - rhel
+- canonical: unix
+  aliases: []
+- canonical: serverless
+  aliases:
+  - aws lambda
+  - azure functions
+  - google cloud functions
+  - lambda
+- canonical: cloudflare
+  aliases:
+  - cloudflare workers
+- canonical: heroku
+  aliases: []
+- canonical: vercel
+  aliases: []
+- canonical: netlify
+  aliases: []
+- canonical: digitalocean
+  aliases: []
+- canonical: helm
+  aliases:
+  - helm charts
+- canonical: argocd
+  aliases:
+  - argo cd
+  - argo
+- canonical: flux cd
+  aliases:
+  - flux
+- canonical: nomad
+  aliases:
+  - hashicorp nomad
+- canonical: consul
+  aliases:
+  - hashicorp consul
+- canonical: vault
+  aliases:
+  - hashicorp vault
+- canonical: amazon ec2
+  aliases:
+  - ec2
+- canonical: amazon s3
+  aliases:
+  - s3
+- canonical: amazon ecs
+  aliases:
+  - ecs
+  - fargate
+  - amazon eks
+  - eks
+devops_cicd:
+- canonical: git
+  aliases:
+  - version control
+  - git scm
+- canonical: github
+  aliases:
+  - github actions
+- canonical: gitlab
+  aliases:
+  - gitlab ci
+  - gitlab-ci
+- canonical: bitbucket
+  aliases:
+  - bitbucket pipelines
+- canonical: jenkins
+  aliases:
+  - jenkins ci
+- canonical: circleci
+  aliases: []
+- canonical: travis ci
+  aliases:
+  - travis
+- canonical: teamcity
+  aliases: []
+- canonical: bamboo
+  aliases: []
+- canonical: prometheus
+  aliases:
+  - promql
+- canonical: grafana
+  aliases: []
+- canonical: datadog
+  aliases: []
+- canonical: new relic
+  aliases:
+  - newrelic
+- canonical: splunk
+  aliases: []
+- canonical: elk stack
+  aliases:
+  - elasticsearch logstash kibana
+  - logstash
+  - kibana
+- canonical: jaeger
+  aliases:
+  - distributed tracing
+- canonical: opentelemetry
+  aliases:
+  - open telemetry
+  - otel
+- canonical: sentry
+  aliases:
+  - error tracking
+- canonical: pagerduty
+  aliases: []
+- canonical: nagios
+  aliases: []
+- canonical: zabbix
+  aliases: []
+- canonical: site reliability engineering
+  aliases:
+  - sre
+- canonical: devops
+  aliases: []
+- canonical: chaos engineering
+  aliases: []
+- canonical: continuous integration
+  aliases:
+  - continuous delivery
+  - continuous deployment
+  - ci/cd
+  - ci cd
+data_science_ai:
+- canonical: machine learning
+  aliases:
+  - ml
+  - statistical learning
+- canonical: deep learning
+  aliases:
+  - neural networks
+  - dnn
+- canonical: artificial intelligence
+  aliases:
+  - ai
+- canonical: natural language processing
+  aliases:
+  - nlp
+  - computational linguistics
+- canonical: computer vision
+  aliases:
+  - cv
+  - image recognition
+  - object detection
+- canonical: large language models
+  aliases:
+  - llm
+  - llms
+  - foundational models
+- canonical: generative ai
+  aliases:
+  - genai
+  - gen ai
+- canonical: prompt engineering
+  aliases: []
+- canonical: retrieval-augmented generation
+  aliases:
+  - rag
+- canonical: pytorch
+  aliases:
+  - torch
+- canonical: tensorflow
+  aliases:
+  - tf
+- canonical: keras
+  aliases: []
+- canonical: scikit-learn
+  aliases:
+  - sklearn
+- canonical: pandas
+  aliases: []
+- canonical: numpy
+  aliases: []
+- canonical: scipy
+  aliases: []
+- canonical: transformers
+  aliases:
+  - huggingface transformers
+  - hugging face
+  - huggingface
+- canonical: spacy
+  aliases: []
+- canonical: nltk
+  aliases: []
+- canonical: opencv
+  aliases:
+  - cv2
+- canonical: xgboost
+  aliases:
+  - extreme gradient boosting
+- canonical: lightgbm
+  aliases:
+  - lgbm
+- canonical: catboost
+  aliases: []
+- canonical: langchain
+  aliases: []
+- canonical: llama_index
+  aliases:
+  - llamaindex
+- canonical: reinforcement learning
+  aliases:
+  - rl
+- canonical: transfer learning
+  aliases: []
+- canonical: fine-tuning
+  aliases:
+  - lora
+  - qlora
+  - peft
+- canonical: mlops
+  aliases:
+  - model deployment
+  - model serving
+  - machine learning operations
+- canonical: mlflow
+  aliases: []
+- canonical: weights & biases
+  aliases:
+  - wandb
+- canonical: kubeflow
+  aliases: []
+- canonical: triton inference server
+  aliases:
+  - triton
+- canonical: onnx
+  aliases:
+  - onnx runtime
+- canonical: tensorrt
+  aliases: []
+- canonical: ray
+  aliases:
+  - ray core
+  - ray tune
+  - ray train
+- canonical: jupyter
+  aliases:
+  - jupyter notebook
+  - jupyterlab
+- canonical: statsmodels
+  aliases: []
+- canonical: feature engineering
+  aliases: []
+- canonical: model evaluation
+  aliases:
+  - cross-validation
+  - a/b testing
+big_data_engineering:
+- canonical: apache spark
+  aliases:
+  - spark
+  - pyspark
+  - spark streaming
+  - spark sql
+- canonical: apache flink
+  aliases:
+  - flink
+- canonical: hadoop
+  aliases:
+  - hdfs
+  - mapreduce
+- canonical: apache beam
+  aliases:
+  - beam
+- canonical: apache airflow
+  aliases:
+  - airflow
+- canonical: prefect
+  aliases: []
+- canonical: dagster
+  aliases: []
+- canonical: dbt
+  aliases:
+  - data build tool
+- canonical: databricks
+  aliases: []
+- canonical: delta lake
+  aliases: []
+- canonical: apache iceberg
+  aliases:
+  - iceberg
+- canonical: apache hudi
+  aliases:
+  - hudi
+- canonical: apache parquet
+  aliases:
+  - parquet
+- canonical: presto
+  aliases:
+  - presto sql
+- canonical: trino
+  aliases: []
+- canonical: apache hive
+  aliases:
+  - hive
+- canonical: etl
+  aliases:
+  - extract transform load
+  - elt
+  - data ingestion
+- canonical: data warehousing
+  aliases:
+  - dwh
+  - edw
+- canonical: data lake
+  aliases:
+  - data lakehouse
+  - lakehouse
+- canonical: data pipeline
+  aliases:
+  - data pipelines
+- canonical: data modeling
+  aliases:
+  - dimensional modeling
+  - star schema
+- canonical: stream processing
+  aliases:
+  - real-time streaming
+  - event streaming
+- canonical: batch processing
+  aliases: []
+- canonical: kafka streams
+  aliases: []
+- canonical: data governance
+  aliases:
+  - data lineage
+  - data catalog
+cybersecurity_networking:
+- canonical: cybersecurity
+  aliases:
+  - information security
+  - infosec
+- canonical: network security
+  aliases: []
+- canonical: application security
+  aliases:
+  - appsec
+- canonical: penetration testing
+  aliases:
+  - pen testing
+  - ethical hacking
+- canonical: vulnerability assessment
+  aliases:
+  - vulnerability management
+- canonical: cryptography
+  aliases:
+  - encryption
+  - tls/ssl
+  - public key infrastructure
+  - pki
+- canonical: oauth2
+  aliases:
+  - oauth 2.0
+  - oauth
+  - openid connect
+  - oidc
+- canonical: jwt
+  aliases:
+  - json web tokens
+  - json web token
+- canonical: identity and access management
+  aliases:
+  - iam
+  - sso
+  - saml
+- canonical: zero trust
+  aliases:
+  - zero trust architecture
+- canonical: firewalls
+  aliases:
+  - waf
+  - web application firewall
+  - firewall
+- canonical: intrusion detection
+  aliases:
+  - ids
+  - ips
+  - snort
+- canonical: siem
+  aliases:
+  - security information and event management
+- canonical: wireshark
+  aliases:
+  - packet analysis
+- canonical: tcp/ip
+  aliases:
+  - networking protocols
+  - udp
+  - ip networking
+- canonical: dns
+  aliases:
+  - domain name system
+- canonical: http/https
+  aliases:
+  - http protocols
+  - http
+  - https
+- canonical: vpn
+  aliases:
+  - virtual private network
+- canonical: reverse proxy
+  aliases: []
+- canonical: load balancing
+  aliases:
+  - load balancers
+  - load balancer
+- canonical: compliance
+  aliases:
+  - soc 2
+  - iso 27001
+  - hipaa
+  - pci-dss
+- canonical: gdpr
+  aliases:
+  - data privacy
+- canonical: incident response
+  aliases:
+  - threat hunting
+  - dfir
+- canonical: malware analysis
+  aliases: []
+- canonical: security auditing
+  aliases: []
+mobile_embedded:
+- canonical: android
+  aliases:
+  - android sdk
+  - android development
+- canonical: ios
+  aliases:
+  - ios sdk
+  - ios development
+- canonical: react native
+  aliases: []
+- canonical: flutter
+  aliases: []
+- canonical: swiftui
+  aliases: []
+- canonical: uikit
+  aliases: []
+- canonical: jetpack compose
+  aliases:
+  - compose
+- canonical: xcode
+  aliases: []
+- canonical: android studio
+  aliases: []
+- canonical: mobile app development
+  aliases:
+  - mobile development
+- canonical: embedded systems
+  aliases:
+  - embedded c
+  - embedded c++
+  - embedded programming
+- canonical: rtos
+  aliases:
+  - real-time operating systems
+  - freertos
+- canonical: microcontrollers
+  aliases:
+  - arduino
+  - stm32
+  - esp32
+  - mcu
+- canonical: raspberry pi
+  aliases: []
+- canonical: arm architecture
+  aliases:
+  - arm cortex
+  - arm
+- canonical: iot
+  aliases:
+  - internet of things
+- canonical: bluetooth
+  aliases:
+  - ble
+  - bluetooth low energy
+- canonical: zigbee
+  aliases: []
+- canonical: can bus
+  aliases: []
+- canonical: firmware development
+  aliases:
+  - firmware
+software_engineering_practices:
+- canonical: agile
+  aliases:
+  - agile methodology
+- canonical: scrum
+  aliases:
+  - scrum master
+  - sprint planning
+- canonical: kanban
+  aliases: []
+- canonical: test-driven development
+  aliases:
+  - tdd
+- canonical: behavior-driven development
+  aliases:
+  - bdd
+- canonical: unit testing
+  aliases: []
+- canonical: integration testing
+  aliases: []
+- canonical: end-to-end testing
+  aliases:
+  - e2e testing
+  - e2e
+- canonical: code review
+  aliases:
+  - pull requests
+  - pr review
+  - peer review
+- canonical: refactoring
+  aliases:
+  - code refactoring
+- canonical: object-oriented programming
+  aliases:
+  - oop
+  - ood
+- canonical: functional programming
+  aliases:
+  - fp
+- canonical: design patterns
+  aliases:
+  - gang of four
+  - singleton
+  - factory pattern
+- canonical: system design
+  aliases:
+  - distributed systems architecture
+  - software architecture
+- canonical: clean architecture
+  aliases:
+  - hexagonal architecture
+  - onion architecture
+- canonical: domain-driven design
+  aliases:
+  - ddd
+- canonical: continuous refactoring
+  aliases: []
+- canonical: performance optimization
+  aliases:
+  - profiling
+  - benchmarking
+  - code optimization
+- canonical: technical documentation
+  aliases:
+  - api documentation
+  - swagger
+  - openapi
+- canonical: jira
+  aliases:
+  - atlassian jira
+- canonical: confluence
+  aliases:
+  - atlassian confluence
+- canonical: github issues
+  aliases: []
+- canonical: root cause analysis
+  aliases:
+  - rca
+  - post-mortem
+  - postmortem
+- canonical: release management
+  aliases: []
+- canonical: devsecops
+  aliases: []
+analytics_bi:
+- canonical: tableau
+  aliases: []
+- canonical: power bi
+  aliases:
+  - powerbi
+  - dax
+  - power query
+- canonical: looker
+  aliases:
+  - lookml
+- canonical: google analytics
+  aliases:
+  - ga4
+- canonical: mixpanel
+  aliases: []
+- canonical: amplitude
+  aliases: []
+- canonical: excel
+  aliases:
+  - advanced excel
+  - vba
+  - pivot tables
+  - microsoft excel
+- canonical: google sheets
+  aliases: []
+- canonical: metabase
+  aliases: []
+- canonical: superset
+  aliases:
+  - apache superset
+- canonical: statistical analysis
+  aliases:
+  - hypothesis testing
+  - regression analysis
+  - anova
+- canonical: data visualization
+  aliases:
+  - dataviz
+  - exploratory data analysis
+  - eda
+- canonical: predictive modeling
+  aliases: []
+- canonical: customer analytics
+  aliases:
+  - churn analysis
+  - ltv
+- canonical: funnel analysis
+  aliases: []
+- canonical: cohort analysis
+  aliases: []
+- canonical: business intelligence
+  aliases:
+  - bi
+- canonical: kpi reporting
+  aliases:
+  - kpi dashboards
+  - metric tracking
+- canonical: financial modeling
+  aliases: []
+- canonical: operations research
+  aliases:
+  - linear programming
+  - optimization
+soft_skills:
+- canonical: communication
+  aliases:
+  - verbal communication
+  - written communication
+  - oral communication
+- canonical: teamwork
+  aliases:
+  - cross-functional collaboration
+  - collaborative
+  - team player
+- canonical: problem solving
+  aliases:
+  - analytical problem solving
+  - troubleshooting
+  - analytical skills
+- canonical: critical thinking
+  aliases: []
+- canonical: leadership
+  aliases:
+  - tech lead
+  - team lead
+  - engineering leadership
+- canonical: mentoring
+  aliases:
+  - coaching
+  - junior mentoring
+  - mentorship
+- canonical: project management
+  aliases:
+  - pmp
+  - project planning
+  - program management
+- canonical: stakeholder management
+  aliases:
+  - client management
+  - executive communication
+- canonical: time management
+  aliases:
+  - prioritization
+  - work ethic
+- canonical: adaptability
+  aliases:
+  - flexibility
+  - resilience
+- canonical: emotional intelligence
+  aliases:
+  - empathy
+  - eq
+- canonical: conflict resolution
+  aliases:
+  - negotiation
+- canonical: presentation skills
+  aliases:
+  - public speaking
+- canonical: technical writing
+  aliases:
+  - documentation
+- canonical: decision making
+  aliases: []
+- canonical: creativity
+  aliases:
+  - innovation
+- canonical: strategic thinking
+  aliases:
+  - business acumen
+- canonical: attention to detail
+  aliases:
+  - detail-oriented
+- canonical: ownership
+  aliases:
+  - accountability
+  - high agency
+- canonical: self-motivation
+  aliases:
+  - autonomous
+  - initiative
+  - self-starter
+- canonical: active listening
+  aliases: []
+- canonical: interpersonal skills
+  aliases: []
+- canonical: organizational skills
+  aliases: []
+- canonical: multitasking
+  aliases: []
+- canonical: delegation
+  aliases: []
+- canonical: cross-cultural collaboration
+  aliases:
+  - remote team collaboration
+- canonical: customer empathy
+  aliases:
+  - user advocacy
+  - customer-centric
+- canonical: continuous learning
+  aliases:
+  - growth mindset
+  - fast learner
+- canonical: agile coaching
+  aliases: []
+- canonical: change management
+  aliases: []
